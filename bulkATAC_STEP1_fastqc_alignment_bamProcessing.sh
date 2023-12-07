@@ -15,12 +15,12 @@ module load FastQC-0.11.2
 
 # Pyton environment
 source $HOME/my_python-3.9.1/bin/activate
-export PYTHONPATH=/home/jogiles/my_python-3.9.1/lib/python3.9/site-packages
+export PYTHONPATH=$HOME/my_python-3.9.1/lib/python3.9/site-packages
 
 # Copy reference files into working directory
-cp /home/jogiles/ref_files/hg38_bt2index/hg38* .
-cp /home/jogiles/ref_files/hg38.blacklist.bed .
-cp /home/jogiles/ref_files/hg38.chrom.sizes .
+cp $HOME/ref_files/hg38_bt2index/hg38* .
+cp $HOME/ref_files/hg38.blacklist.bed .
+cp $HOME/ref_files/hg38.chrom.sizes .
 
 
 ######################################################################
