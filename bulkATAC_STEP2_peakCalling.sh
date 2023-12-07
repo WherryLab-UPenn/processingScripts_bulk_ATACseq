@@ -8,7 +8,7 @@ fi
 module load python/3.9.1
 
 source $HOME/my_python-3.9.1/bin/activate
-export PYTHONPATH=/home/jogiles/my_python-3.9.1/lib/python3.9/site-packages
+export PYTHONPATH=$HOME/my_python-3.9.1/lib/python3.9/site-packages
 
 
 ###############################################################
